@@ -7,6 +7,14 @@
     "sdk",
     "global payment processing"
   ],
+  "authors": [
+      {
+          "name": "Veem",
+          "email": "devsupport@veem.com",
+          "homepage": "https://www.veem.com",
+          "role": "Developer"
+      }
+  ],
   "license": "MIT",
   "require": {
     "php": ">=7.1.0",
