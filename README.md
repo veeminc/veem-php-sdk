@@ -4,7 +4,7 @@ Veem-PHP-Sdk
 The Veem PHP SDK provides an interface to make it easier to call [Veem Global Payments APIs](https://developer.veem.com/reference).
 
 ## Version information
-- Latest SDK Version: ```1.0.0```
+- Latest SDK Version: ```1.0.1```
 - Latest supported API Endpoint Version: ```v1.1```
 
 
@@ -48,7 +48,7 @@ In order to get the access tokens from the Developer Portal;
 
 **Sign In with Veem** - Sign into [developer Portal ](https://developer.veem.com/page/dev-dashboard-sandbox).
 
-**Create an Application**- Create a new application by providing the `Name`, `OAuth2 Redirection URLs` and `Payment Status Webhooks`.
+**Create an Application**- Create a new application by providing the `Name`, `OAuth2 Redirection URLs` and `Payment Status Webhooks`.  If using [2-legged OAuth](https://developer.veem.com/docs/oauth#section-steps-for-two-legged), like in the example below, then ensure `Support 2-legged OAuth` is also enabled.
 
 **Create a Customer**- Create a new customer by providing `Business Name`, `Country` and `Primary Email`
 

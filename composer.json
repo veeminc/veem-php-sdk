@@ -23,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Veem\\" : "lib/"
+      "Veem\\" : "lib/Veem"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Veem\\": "lib/"
+      "Veem\\": "lib/Veem"
     }
   },
   "require-dev": {
